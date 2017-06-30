@@ -10,7 +10,14 @@ server.route({
 	path: '/{path?}',
 	method: 'POST',
 	handler: (request, reply) => {
-		axios.get('http://inspirobot.me/api?generate=true').then(({data}) => reply(data));
+		axios.get('http://inspirobot.me/api?generate=true').then(({data}) => {
+			const slackReply = {
+				response_type: "in_channel",
+				text: data
+			};
+
+			reply(slackReply);
+		});
 	}
 });
 
