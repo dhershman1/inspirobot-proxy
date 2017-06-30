@@ -1,0 +1,15 @@
+{
+  "name": "inspiro-slack",
+  "version": "1.0.0",
+  "description": "simple proxy for insprobot.me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dustin Hershman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "hapi": "^16.4.3"
+  }
+}
