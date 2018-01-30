@@ -1,6 +1,6 @@
 {
   "name": "inspiro-slack",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "simple proxy for insprobot.me",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "author": "Dustin Hershman",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
-    "hapi": "^16.4.3"
+    "axios": "0.17.1"
   }
 }
